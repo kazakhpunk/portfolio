@@ -6,19 +6,11 @@ import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
 import { Python } from "@/components/ui/svgs/python";
 import { Golang } from "@/components/ui/svgs/golang";
-import { Postgresql } from "@/components/ui/svgs/postgresql";
-import { Docker } from "@/components/ui/svgs/docker";
+import { CPlusPlus } from "@/components/ui/svgs/cplusplus";
 import { FastApi } from "@/components/ui/svgs/fastapi";
 import { PyTorch } from "@/components/ui/svgs/pytorch";
 import { LangGraph } from "@/components/ui/svgs/langgraph";
-import { Mcp } from "@/components/ui/svgs/mcp";
 import { Vllm } from "@/components/ui/svgs/vllm";
-import { HuggingFace } from "@/components/ui/svgs/huggingface";
-import { Qdrant } from "@/components/ui/svgs/qdrant";
-import { Redis } from "@/components/ui/svgs/redis";
-import { Aws } from "@/components/ui/svgs/aws";
-import { Bloomberg } from "@/components/ui/svgs/bloomberg";
-import { CPlusPlus } from "@/components/ui/svgs/cplusplus";
 
 export const DATA = {
   name: "Nursultan Sagyntay",
@@ -32,24 +24,26 @@ export const DATA = {
     "I'm a computer science student at [NYU Abu Dhabi](/#education) (Class of 2027) who spends most of his time on two things: AI agents and quantitative research. Most recently I was a [Quantitative Researcher and AI Engineer at Kepler Cheuvreux](/#work) in Dubai, where I built a credit-signal platform covering 2,500+ EM bonds and shipped it as a production web product. Before that I worked on LLM evaluation infrastructure at [ISSAI](/#work), adapting SOTA benchmarks into Kazakh and Russian, and I still build RAG and multi-agent pipelines for [Computational Social Science at NYU](/#work). On the side I ship things like [CodeReaper](https://mcpservers.org/codereaper), an MCP tool that hunts dead JavaScript, and a handful of other [projects](/#projects).",
   avatarUrl: "/me.jpg",
   skills: [
+    // Languages and frameworks carry icons and lead the list; platforms, data
+    // stores, and protocols follow as plain pills.
     { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
     { name: "Typescript", icon: Typescript },
-    { name: "Next.js", icon: NextjsIconDark },
-    { name: "React", icon: ReactLight },
-    { name: "Postgres", icon: Postgresql },
-    { name: "Docker", icon: Docker },
-    { name: "FastAPI", icon: FastApi },
+    { name: "Go", icon: Golang },
+    { name: "C++", icon: CPlusPlus },
     { name: "PyTorch", icon: PyTorch },
     { name: "LangGraph", icon: LangGraph },
-    { name: "MCP", icon: Mcp },
     { name: "vLLM", icon: Vllm },
-    { name: "HuggingFace", icon: HuggingFace },
-    { name: "Qdrant", icon: Qdrant },
-    { name: "Redis", icon: Redis },
-    { name: "AWS", icon: Aws },
-    { name: "Bloomberg", icon: Bloomberg },
-    { name: "C++", icon: CPlusPlus },
+    { name: "FastAPI", icon: FastApi },
+    { name: "Next.js", icon: NextjsIconDark },
+    { name: "React", icon: ReactLight },
+    { name: "MCP" },
+    { name: "HuggingFace" },
+    { name: "Postgres" },
+    { name: "Qdrant" },
+    { name: "Redis" },
+    { name: "Docker" },
+    { name: "AWS" },
+    { name: "Bloomberg" },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
