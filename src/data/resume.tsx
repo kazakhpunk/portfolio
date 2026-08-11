@@ -180,7 +180,7 @@ export const DATA = {
     {
       title: "Quant Trader AI",
       href: "https://quant-trader-ai-v4.vercel.app/",
-      dates: "2026",
+      dates: "2024",
       active: true,
       description:
         "AI trading platform that fuses technical indicators, fundamentals, sentiment and volatility into real-time signals. Covers 450+ tickers with relative-value pair discovery, cointegration analysis, and a paper-trading sandbox before live broker execution.",
@@ -229,7 +229,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/projects/codereaper.svg?v=11",
       video: "",
     },
     {
