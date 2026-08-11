@@ -229,7 +229,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/projects/codereaper.svg?v=11",
+      image: "/projects/codereaper.png?v=11",
       video: "",
     },
     {
