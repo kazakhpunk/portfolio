@@ -8,6 +8,17 @@ import { Python } from "@/components/ui/svgs/python";
 import { Golang } from "@/components/ui/svgs/golang";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Docker } from "@/components/ui/svgs/docker";
+import { FastApi } from "@/components/ui/svgs/fastapi";
+import { PyTorch } from "@/components/ui/svgs/pytorch";
+import { LangGraph } from "@/components/ui/svgs/langgraph";
+import { Mcp } from "@/components/ui/svgs/mcp";
+import { Vllm } from "@/components/ui/svgs/vllm";
+import { HuggingFace } from "@/components/ui/svgs/huggingface";
+import { Qdrant } from "@/components/ui/svgs/qdrant";
+import { Redis } from "@/components/ui/svgs/redis";
+import { Aws } from "@/components/ui/svgs/aws";
+import { Bloomberg } from "@/components/ui/svgs/bloomberg";
+import { CPlusPlus } from "@/components/ui/svgs/cplusplus";
 
 export const DATA = {
   name: "Nursultan Sagyntay",
@@ -28,17 +39,17 @@ export const DATA = {
     { name: "React", icon: ReactLight },
     { name: "Postgres", icon: Postgresql },
     { name: "Docker", icon: Docker },
-    { name: "FastAPI" },
-    { name: "PyTorch" },
-    { name: "LangGraph" },
-    { name: "MCP" },
-    { name: "vLLM" },
-    { name: "HuggingFace" },
-    { name: "Qdrant" },
-    { name: "Redis" },
-    { name: "AWS" },
-    { name: "Bloomberg" },
-    { name: "C++" },
+    { name: "FastAPI", icon: FastApi },
+    { name: "PyTorch", icon: PyTorch },
+    { name: "LangGraph", icon: LangGraph },
+    { name: "MCP", icon: Mcp },
+    { name: "vLLM", icon: Vllm },
+    { name: "HuggingFace", icon: HuggingFace },
+    { name: "Qdrant", icon: Qdrant },
+    { name: "Redis", icon: Redis },
+    { name: "AWS", icon: Aws },
+    { name: "Bloomberg", icon: Bloomberg },
+    { name: "C++", icon: CPlusPlus },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
