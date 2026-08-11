@@ -23,7 +23,7 @@ import { CPlusPlus } from "@/components/ui/svgs/cplusplus";
 export const DATA = {
   name: "Nursultan Sagyntay",
   initials: "NS",
-  url: "https://nursultan.dev",
+  url: "https://nursultan.org",
   location: "Abu Dhabi, UAE",
   locationLink: "https://www.google.com/maps/place/abu+dhabi",
   description:
