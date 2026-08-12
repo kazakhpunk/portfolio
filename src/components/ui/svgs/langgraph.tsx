@@ -1,9 +1,0 @@
-import type { SVGProps } from "react";
-
-const LangGraph = (props: SVGProps<SVGSVGElement>) => (
-  <svg {...props} viewBox="0 0 24 24" fill="#7FC8FF">
-    <path d="M5 19H10A5 5 0 115 14ZM19 14A5 5 0 1114 19H19ZM10 5A5 5 0 105 10V5ZM19 5V10A5 5 0 1014 5Z" />
-  </svg>
-);
-
-export { LangGraph };

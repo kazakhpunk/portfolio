@@ -9,8 +9,6 @@ import { Golang } from "@/components/ui/svgs/golang";
 import { CPlusPlus } from "@/components/ui/svgs/cplusplus";
 import { FastApi } from "@/components/ui/svgs/fastapi";
 import { PyTorch } from "@/components/ui/svgs/pytorch";
-import { LangGraph } from "@/components/ui/svgs/langgraph";
-import { Vllm } from "@/components/ui/svgs/vllm";
 
 export const DATA = {
   name: "Nursultan Sagyntay",
@@ -31,11 +29,11 @@ export const DATA = {
     { name: "Go", icon: Golang },
     { name: "C++", icon: CPlusPlus },
     { name: "PyTorch", icon: PyTorch },
-    { name: "LangGraph", icon: LangGraph },
-    { name: "vLLM", icon: Vllm },
     { name: "FastAPI", icon: FastApi },
     { name: "Next.js", icon: NextjsIconDark },
     { name: "React", icon: ReactLight },
+    { name: "LangGraph" },
+    { name: "vLLM" },
     { name: "MCP" },
     { name: "HuggingFace" },
     { name: "Postgres" },
